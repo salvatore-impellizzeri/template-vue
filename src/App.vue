@@ -1,10 +1,16 @@
 <script>
+import AppHeader from './components/AppHeader.vue';
+import AppHeader from './components/AppHeader.vue';
 
 export default {
   data() {
     return {
       message: 'Template Vite + Vue'
     }
+  },
+
+  components: {
+    AppHeader,
   }
 }
 </script>
@@ -14,7 +20,7 @@ export default {
   <div>
     <header>
         <h1> 
-            {{ message }}
+            <AppHeader />
         </h1>
     </header>
   </div>
