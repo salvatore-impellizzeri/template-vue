@@ -15,15 +15,12 @@ export default {
 }
 </script>
 
-<!-- All'interno del template ci va un solo figlio -->
 <template> 
-  <div>
-    <header>
-        <h1> 
-            <AppHeader />
-        </h1>
-    </header>
-  </div>
+  <header>
+    <h1> 
+        <AppHeader />
+    </h1>
+  </header>
 </template>
 
 <style lang="scss" scoped>
