@@ -26,7 +26,7 @@ export default {
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 header {
     background-color: aquamarine;
     text-align: center;
