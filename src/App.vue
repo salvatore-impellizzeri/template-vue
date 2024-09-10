@@ -27,6 +27,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use 'assets/scss/main.scss' as *;
+
 header {
     background-color: aquamarine;
     text-align: center;
